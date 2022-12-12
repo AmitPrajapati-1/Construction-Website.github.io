@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSTRUCTION WEBSITE</title>
+    <style>
+        nav {
+            padding: 10px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            margin: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .button {
+            background-color: #7E22CE;
+            color: white;
+            border-radius: 5px;
+            margin-left: 100px;
+            margin: 5px;
+            padding: 10px;
+            box-shadow: none;
+            border: none;
+            line-height: 5;
+        }
+
+
+
+        .Icon {
+            font-size: 30px;
+            color: #7E22CE;
+            margin: 10px 450px 220px 20px;
+        }
+
+
+
+
+
+        .credit {
+            font-size: 2rem;
+            color: var(--black);
+            text-transform: capitalize;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            text-align: center;
+        }
+
+        .credit span {
+            color: rgb(11, 121, 217);
+            text-align: center;
+        }
+
+
+
+        .x {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+        .e {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 15px solid #ffffff;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .he {
+            width: 50px;
+            height: 50px;
+        }
+
+        .h4 {
+            background-color: #d1d5d8;
+        }
+
+        .a {
+            font-size: 1.5rem;
+        }
+
+        .q {
+            font-size: 1.2rem;
+        }
+
+        .h3 {
+            width: 30%;
+        }
+
+        .h2 {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .h1 {
+            background-color: #d1d5d8;
+        }
+
+        .asdf {
+            margin-right: -20px;
+            font-size: large;
+
+
+
+        }
+
+        .sdf {
+            margin-left: 100px;
+            font-size: xx-large;
+            color: var(--black);
+            text-transform: capitalize;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .first-txt {
+            position: absolute;
+            top: 300px;
+            left: 60px;
+
+            font-size: xx-large;
+            color: var(--black);
+            text-transform: capitalize;
+
+        }
+
+
+
+        .hello {
+            background-color: #22ce81;
+            color: white;
+            border-radius: 5px;
+            margin-left: 100px;
+            padding: 10px;
+            box-shadow: none;
+            border: none;
+
+        }
+
+        .wer {
+            background-color: #544265;
+            color: white;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 15px;
+            box-shadow: none;
+            border: none;
+
+        }
+
+        .jh {
+            font-size: large;
+
+        }
+
+        #slideset1 {
+            height: 45rem;
+            position: relative
+        }
+
+        #slideset1>* {
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: 12s autoplay1 infinite
+        }
+
+        @keyframes autoplay1 {
+            0% {
+                visibility: visible
+            }
+
+            33.33% {
+                visibility: visible
+            }
+        }
+
+        #slideset1>*:nth-child(1) {
+            animation-delay: 2s
+        }
+
+        #slideset1>*:nth-child(2) {
+            animation-delay: 4s
+        }
+
+        #slideset1>*:nth-child(3) {
+            animation-delay: 8s
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #d1d5d8;
+            padding: 0px;
+            margin: 0px;
+            margin-right: -23px;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+
+            width: 100;
+        }
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+        .grid-item1 {
+            background-color: rgba(156, 169, 196, 0.8);
+            border: 5px solid #ffffffcc;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: #d1d5d8;
+            padding: 15px;
+        }
+
+        .grid-item2 {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 15px solid #d1d5d8;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .grid-container3 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #d1d5d8;
+            padding: 15px;
+        }
+
+
+        .content {
+            background-color: #ffffff;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 12px;
+            color: rgb(109, 87, 72);
+
+        }
+
+        .grid-container4 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: #d1d5d8;
+            padding: 15px;
+        }
+
+        .grid-item4 {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 15px solid #d1d5d8;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .w {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #959899;
+            padding: 15px;
+
+        }
+
+        .h {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2.5px solid #000000cc;
+            color: rgb(19, 71, 193);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .r {
+            color: #544265;
+
+        }
+        .n{
+            background-color: #959899;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a class="Icon" href="">WeBulid</a>
+        <a href="#Home">HOME</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#SERVICES">SERVICES</a>
+        <a href="#PROJECTS">PROJECTS</a>
+        <a href="#PRICING">PRICING</a>
+        <a href="https://amitprajapati-1.github.io/Amitp.github.io/" target="_blank">CONTACT</a>
+        <a href="https://amitprajapati-1.github.io/blog.github.io/" target="_blank">BLOGS</a>
+        <a class="button" href="https://amitprajapati-1.github.io/hello.github.io/" target="_blank"
+            rel="noopener noreferrer">Login</a>
+
+
+    </nav>
+
+
+    <div class="row">
+        <div id="slideset1">
+            <div>
+                <img src="home-slide-3.jpg" alt="" width="100px" height="100px">
+                <h3 class="first-txt">
+                    WE PROVIDE BEST SERVICE
+                    <p class="jh">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ulla<br>
+                        ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </p>
+                    <a href="" class="button">get started</a>
+                </h3>
+            </div>
+            <div>
+                <img src="home-slide-2.jpg" alt="" width="100px" height="100px">
+                <h3 class="first-txt">
+                    FROM CONCEPT TO CREATION
+                    <p class="jh">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ulla<br>
+                        ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </p>
+
+                    <a href="" class="button">get started</a>
+
+            </div>
+            <div>
+                <img src="home-slide-1.jpg" alt="" width="100px" height="100px">
+                <h3 class="first-txt">
+                    MAKING DREAM COME TO LIFE
+                    <p class="jh">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ulla<br>
+                        ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </p>
+                    <a href="" class="button">get started</a>
+                </h3>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="h2">
+        <a href="" class="button">ABOUT US</a>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <video src="construction.mp4" loop muted autoplay></video>
+        </div>
+        <div class="grid-item">
+            <h3 class="sdf">
+                We will provide you the best work which you dreamt for!
+                <p class="asdf">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae vitae architecto quos nostrum porro rerum!</p>
+            </h3>
+            <a href="" class="hello">READ MORE</a>
+        </div>
+    </div class="h2">
+    <div class="grid-container1">
+        <div class="grid-item1">
+            <h3>10+</h3>
+            <p class="q">
+            <blockquote> <strong>YEARS OF EXPERIENCE</strong> </blockquote>
+            </p>
+        </div>
+        <div class="grid-item1">
+            <h3>1500+</h3>
+            <p class="q">
+            <blockquote> <strong>PROJECT COMPLETED</strong> </blockquote>
+            </p>
+        </div>
+        <div class="grid-item1">
+            <h3>790+</h3>
+            <p class="q">
+            <blockquote> <strong>SATIESFIED CLIENTS</strong> </blockquote>
+            </p>
+        </div>
+        <div class="grid-item1">
+            <h3>450+</h3>
+            <p class="q">
+            <blockquote> <strong>WORKERS</strong> </blockquote>
+            </p>
+        </div>
+    </div>
+    <div class="h1">
+        <a href="" class="button"> OUR SERVICES</a>
+    </div>
+    <div class="grid-container2">
+        <div class="grid-item2">
+            <img src="service-1.png" alt="" class="h3">
+            <h3 class="a">building construction</h3>
+
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus.</p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-2.png" alt="" class="h3">
+            <h3 class="a">house renovation</h3>
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus. </p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-3.png" alt="" class="h3">
+            <h3 class="a">architechture design</h3>
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus. </p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-4.png" alt="" class="h3">
+            <h3 class="a">material supply</h3>
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus. </p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-5.png" alt="" class="h3">
+            <h3 class="a">construction consultant</h3>
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus. </p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-6.png" alt="" class="h3">
+            <h3 class="a">interior design</h3>
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus.</p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-7.png" alt="" class="h3">
+            <h3 class="a">building maintenance</h3>
+            <p class="q"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus.</p>
+        </div>
+        <div class="grid-item2">
+            <img src="service-8.png" alt="" class="h3">
+            <h3 class="a">building renovation</h3>
+            <p class="q">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, necessitatibus. </p>
+        </div>
+    </div>
+    <div>
+        <a href="" class="button"> OUR PROJECTS</a>
+    </div>
+
+    <div class="grid-container3">
+
+        <a href="project-1.jpg">
+            <div class="image">
+                <img src="project-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Dream Home</h3>
+                    <p>construction, design</p>
+                </div>
+
+            </div>
+        </a>
+
+        <a href="project-2.jpg">
+            <div class="image">
+                <img src="project-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Dream Home</h3>
+                    <p>construction, design</p>
+                </div>
+
+            </div>
+        </a>
+
+        <a href="project-3.jpg">
+            <div class="image">
+                <img src="project-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Dream Home</h3>
+                    <p>construction, design</p>
+                </div>
+
+            </div>
+        </a>
+
+        <a href="project-4.jpg">
+            <div class="image">
+                <img src="project-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Dream Home</h3>
+                    <p>construction, design</p>
+                </div>
+
+            </div>
+        </a>
+
+        <a href="project-5.jpg">
+            <div class="image">
+                <img src="project-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3> Dream Home</h3>
+                    <p>construction, design</p>
+                </div>
+
+            </div>
+        </a>
+
+        <a href="project-6.jpg">
+            <div class="image">
+                <img src="project-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Dream Home</h3>
+                    <p>construction, design</p>
+                </div>
+            </div>
+        </a>
+
+    </div>
+    <div class="n">
+        <a href="" class="button">PRICING</a>
+    </div>
+    <div class="w">
+
+        <div class="h">BASIC PLAN
+            <h3 class="r">$250</h3>
+            <h3 class="r">interior design</h3>
+            <h3 class="r">refurbishment</h3>
+            <h3 class="r">material supply</h3>
+            <h3 class="r">maintenance</h3>
+            <h3 class="r">24/7 support</h3>
+            <a href="" class="button">CHOOSE PLAN</a>
+        </div>
+        <div class="h"> CLASSIC PLAN
+            <h3 class="r">$650</h3>
+            <h3 class="r">interior design</h3>
+            <h3 class="r">refurbishment</h3>
+            <h3 class="r">material supply</h3>
+            <h3 class="r">maintenance</h3>
+            <h3 class="r">24/7 support</h3>
+            <a href="" class="button">CHOOSE PLAN</a>
+        </div>
+        <div class="h"> PREMIUM PLAN
+            <h3 class="r">$1250</h3>
+            <h3 class="r">interior design</h3>
+            <h3 class="r">refurbishment</h3>
+            <h3 class="r">material supply</h3>
+            <h3 class="r">maintenance</h3>
+            <h3 class="r">24/7 support</h3>
+            <a href="" class="button">CHOOSE PLAN</a>
+        </div>
+    </div>
+    <div>
+        <div>
+            <a href="" class="button">ADDRESS</a>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.64332771473!2d72.74109989287156!3d19.082522320522198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1670644683930!5m2!1sen!2sin"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <div class="q">
+        <div class="x">
+            <div class="e"><img src="client-logo-1.png" class="he" alt=""></div>
+            <div class="e"><img src="client-logo-2.png" class="he" alt=""></div>
+            <div class="e"><img src="client-logo-3.png" class="he" alt=""></div>
+            <div class="e"><img src="client-logo-4.png" class="he" alt=""></div>
+            <div class="e"><img src="client-logo-5.png" class="he" alt=""></div>
+            <div class="e"><img src="client-logo-6.png" class="he" alt=""></div>
+        </div>
+
+        <div class="credit"> created by <span>A.P, R.R& B.B</span> | all rights reserved!
+        </div>
+</body>
+
+</html>
